@@ -17,8 +17,8 @@ The example retrieves the 5 most recent events in "C:\Your\Directory" between Ma
 ## Parameters
 - **directoryPath (string):** The path of the directory to monitor.
 - **numberOfEvents (int):** The number of recent events to display.
-- **startDate (string, optional):** The start date of the search in yyyy-MM-dd format.
-- **endDate (string, optional):** The end date of the search in yyyy-MM-dd format.
+- **startDate (string, optional):** The start date of the search in **yyyy-MM-dd** format.
+- **endDate (string, optional):** The end date of the search in **yyyy-MM-dd** format.
 
 ## Requirements
 - The script requires administrative privileges to access security logs.
