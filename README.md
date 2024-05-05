@@ -25,7 +25,7 @@ The example retrieves the 5 most recent events in "C:\Your\Directory" between Ma
 - Object access auditing must be enabled in Windows security settings for file and folder modification events to be logged.
 
 ## Output
--- The script outputs the user who made the modification and the time of modification.
+The script outputs the user who made the modification and the time of modification.
 
 ## Troubleshooting
 Ensure you have the necessary permissions to access security logs.
