@@ -39,7 +39,7 @@ Contributions are welcome! Please fork the repository and create a pull request.
 
 ## Author
 Khaled Nedjari Benhadj Ali - Role: CISO at GICA Group
-Contact
+## Contact
 For any issues or questions regarding this script, feel free to open an issue on GitHub or contact the author directly.
 
 ## Notes:
