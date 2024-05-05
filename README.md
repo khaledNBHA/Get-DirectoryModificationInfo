@@ -15,10 +15,10 @@ The example retrieves the 5 most recent events in "C:\Your\Directory" between Ma
 .\Get-DirectoryModificationInfo.ps1 -directoryPath "C:\Your\Directory" -numberOfEvents 5 -startDate "2024-05-01" -endDate "2024-05-03"
 ```
 ## Parameters
-'directoryPath (string): The path of the directory to monitor.
-'numberOfEvents (int): The number of recent events to display.
-'startDate (string, optional): The start date of the search in yyyy-MM-dd format.
-'endDate (string, optional): The end date of the search in yyyy-MM-dd format.
+- directoryPath (string): The path of the directory to monitor.
+- numberOfEvents (int): The number of recent events to display.
+- startDate (string, optional): The start date of the search in yyyy-MM-dd format.
+- endDate (string, optional): The end date of the search in yyyy-MM-dd format.
 
 ## Requirements
 The script requires administrative privileges to access security logs.
