@@ -21,10 +21,11 @@ The example retrieves the 5 most recent events in "C:\Your\Directory" between Ma
 - **endDate (string, optional):** The end date of the search in yyyy-MM-dd format.
 
 ## Requirements
-The script requires administrative privileges to access security logs.
-Object access auditing must be enabled in Windows security settings for file and folder modification events to be logged.
-Output
-The script outputs the user who made the modification and the time of modification.
+- The script requires administrative privileges to access security logs.
+- Object access auditing must be enabled in Windows security settings for file and folder modification events to be logged.
+
+## Output
+-- The script outputs the user who made the modification and the time of modification.
 
 ## Troubleshooting
 Ensure you have the necessary permissions to access security logs.
