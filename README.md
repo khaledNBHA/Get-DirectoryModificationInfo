@@ -9,7 +9,11 @@ The script leverages Windows security logs to monitor a specific directory for a
 ## Usage
 
 Run the script with the desired parameters to obtain information about the latest modifications of a given directory.
-
+### Example
+The example retrieves the 5 most recent events in "C:\Your\Directory" between May 1, 2024, and May 3, 2024 :
+```powershell
+.\Get-DirectoryModificationInfo.ps1 -directoryPath "C:\Your\Directory" -numberOfEvents 5 -startDate "2024-05-01" -endDate "2024-05-03"
+```
 ## Parameters
 'directoryPath (string): The path of the directory to monitor.
 'numberOfEvents (int): The number of recent events to display.
@@ -29,8 +33,15 @@ If you encounter errors, make sure that object access auditing is enabled in you
 ## License
 This project is licensed under the MIT License.
 
-### Example
-The example retrieves the 5 most recent events in "C:\Your\Directory" between May 1, 2024, and May 3, 2024 :
-```powershell
-.\Get-DirectoryModificationInfo.ps1 -directoryPath "C:\Your\Directory" -numberOfEvents 5 -startDate "2024-05-01" -endDate "2024-05-03"
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request.
 
+## Author
+Khaled Nedjari Benhadj Ali - Role: CISO at GICA Group
+Contact
+For any issues or questions regarding this script, feel free to open an issue on GitHub or contact the author directly.
+
+## Notes:
+
+- Update the `LICENSE` link to point to your license file if you add one to your repository.
+- Feel free to customize the README according to your project's specific details or additional information you wish to include.
