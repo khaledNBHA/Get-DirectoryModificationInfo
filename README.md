@@ -1,3 +1,4 @@
+[![Stand With Palestine](https://raw.githubusercontent.com/TheBSD/StandWithPalestine/main/banner-no-action.svg)](https://thebsd.github.io/StandWithPalestine)
 # Get-DirectoryModificationInfo.ps1
 
 This script retrieves Windows security logs to identify the latest modifications in a specified directory and the user who made these modifications. It also allows specifying a date or date range to filter the results.
